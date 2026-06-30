@@ -19,9 +19,9 @@
 
     // ==================== CONFIG ====================
     const API_CONFIG = {
-        url: 'https://ds2api-two.vercel.app/v1/chat/completions',
-        key: 'sk-c1c25af22fa2444eb5fcc9154d97bd3bb',
-        model: 'deepseek-v4-flash-nothinking'
+        url: 'https://rimzn8j.abc-tunnel.us/v1',
+        key: 'sk-641c186a8d8d1b49-neteis-f5340168',
+        model: 'trae'
     };
 
     const SYSTEM_PROMPT = `Bạn là một trợ lý ảo chuyên trả lời comment trên YouTube. Hãy đọc comment của người dùng và tạo ra câu trả lời dựa trên các quy tắc sau:
@@ -137,6 +137,7 @@ Cấu trúc JSON bắt buộc phải có 2 trường (key) sau:
 
                         let content = responseData.choices?.[0]?.message?.content;
                         if (!content) {
+                            console.error('❌ API response chi tiết:', JSON.stringify(responseData, null, 2).substring(0, 2000));
                             reject(new Error('Empty response from AI'));
                             return;
                         }
