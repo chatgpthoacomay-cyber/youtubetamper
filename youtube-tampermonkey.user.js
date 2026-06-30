@@ -20,7 +20,7 @@
     // ==================== CONFIG ====================
     const API_CONFIG = {
         url: 'https://rimzn8j.abc-tunnel.us/v1',
-        key: 'sk-641c186a8d8d1b49-neteis-f5340168',
+        key: '',
         model: 'trae'
     };
 
