@@ -20,7 +20,7 @@
     // ==================== CONFIG ====================
     const API_CONFIG = {
         url: 'https://ds2api-two.vercel.app/v1/chat/completions',
-        key: 'sk-c1c25af22fa2444eb5fcc9154d97bd3b',
+        key: 'sk-c1c25af22fa2444eb5fcc9154d97bd3bb',
         model: 'deepseek-v4-flash-nothinking'
     };
 
